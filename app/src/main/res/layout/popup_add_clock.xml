@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TimePicker
+            android:id="@+id/timePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.014" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="130dp"
+            android:layout_height="54dp"
+            android:hint="title"
+            app:layout_constraintBottom_toTopOf="@+id/fragment_createalarm_recurring_options"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.069"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/timePicker"
+            app:layout_constraintVertical_bias="0.666" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Repeat"
+            app:layout_constraintBottom_toTopOf="@+id/fragment_createalarm_recurring_options"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.79"
+            app:layout_constraintStart_toEndOf="@+id/editText"
+            app:layout_constraintTop_toBottomOf="@+id/timePicker"
+            app:layout_constraintVertical_bias="0.7" />
+
+        <LinearLayout
+            android:id="@+id/fragment_createalarm_recurring_options"
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:layout_marginStart="16dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/timePicker"
+            app:layout_constraintVertical_bias="0.694">
+
+            <CheckBox
+                android:id="@+id/fragment_createalarm_checkMon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mon" />
+
+            <CheckBox
+                android:id="@+id/fragment_createalarm_checkTue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tue" />
+
+            <CheckBox
+                android:id="@+id/fragment_createalarm_checkWed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wed" />
+
+            <CheckBox
+                android:id="@+id/fragment_createalarm_checkThu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thu" />
+
+            <CheckBox
+                android:id="@+id/fragment_createalarm_checkFri"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fri" />
+
+            <CheckBox
+                android:id="@+id/fragment_createalarm_checkSat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sat" />
+
+            <CheckBox
+                android:id="@+id/fragment_createalarm_checkSun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sun" />
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</layout>

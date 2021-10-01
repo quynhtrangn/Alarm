@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/2021/DemoAndroid/clock2/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/2021/DemoAndroid/clock2/app/src/main/res/layout/fragment_c_lock.xml" value="0.1" />
+        <entry key="..\:/2021/DemoAndroid/clock2/app/src/main/res/layout/fragment_clock.xml" value="0.1796875" />
+        <entry key="..\:/2021/DemoAndroid/clock2/app/src/main/res/layout/fragment_count.xml" value="0.14666666666666667" />
+        <entry key="..\:/2021/DemoAndroid/clock2/app/src/main/res/layout/fragment_timer.xml" value="0.1796875" />
+        <entry key="..\:/2021/DemoAndroid/clock2/app/src/main/res/menu/menu.xml" value="0.1" />
+        <entry key="..\:/Android/DemoAndroid/bottom_nav/app/src/main/res/drawable/ic_add.xml" value="0.18020833333333333" />
+        <entry key="..\:/Android/DemoAndroid/bottom_nav/app/src/main/res/drawable/ic_alarm.xml" value="0.19583333333333333" />
+        <entry key="..\:/Android/DemoAndroid/bottom_nav/app/src/main/res/drawable/ic_count.xml" value="0.19583333333333333" />
+        <entry key="..\:/Android/DemoAndroid/bottom_nav/app/src/main/res/drawable/ic_pause.xml" value="0.18020833333333333" />
+        <entry key="..\:/Android/DemoAndroid/bottom_nav/app/src/main/res/drawable/ic_play.xml" value="0.18020833333333333" />
+        <entry key="..\:/Android/DemoAndroid/bottom_nav/app/src/main/res/drawable/ic_replay.xml" value="0.16111111111111112" />
+        <entry key="..\:/Android/DemoAndroid/bottom_nav/app/src/main/res/drawable/ic_save.xml" value="0.19583333333333333" />
+        <entry key="..\:/Android/DemoAndroid/bottom_nav/app/src/main/res/drawable/ic_timer.xml" value="0.19583333333333333" />
+        <entry key="..\:/Android/DemoAndroid/bottom_nav/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Android/DemoAndroid/bottom_nav/app/src/main/res/layout/fragment_alarm_announce.xml" value="0.1640625" />
+        <entry key="..\:/Android/DemoAndroid/bottom_nav/app/src/main/res/layout/fragment_clock.xml" value="0.1" />
+        <entry key="..\:/Android/DemoAndroid/bottom_nav/app/src/main/res/layout/fragment_clock_item.xml" value="0.22" />
+        <entry key="..\:/Android/DemoAndroid/bottom_nav/app/src/main/res/layout/fragment_count.xml" value="0.1796875" />
+        <entry key="..\:/Android/DemoAndroid/bottom_nav/app/src/main/res/layout/fragment_timer.xml" value="0.1796875" />
+        <entry key="..\:/Android/DemoAndroid/bottom_nav/app/src/main/res/layout/popup_add_clock.xml" value="0.1796875" />
+        <entry key="..\:/Android/DemoAndroid/bottom_nav/app/src/main/res/menu/menu.xml" value="0.1" />
+        <entry key="..\:/Android/DemoAndroid/bottom_nav/app/src/main/res/menu/menu_save.xml" value="0.1796875" />
+        <entry key="..\:/Android/bottom_nav/app/src/main/res/drawable/ic_count.xml" value="0.19583333333333333" />
+        <entry key="..\:/Android/bottom_nav/app/src/main/res/layout/activity_main.xml" value="0.17692307692307693" />
+        <entry key="..\:/Android/bottom_nav/app/src/main/res/layout/activity_ring.xml" value="0.1" />
+        <entry key="..\:/Android/bottom_nav/app/src/main/res/layout/activity_ring_count.xml" value="0.353125" />
+        <entry key="..\:/Android/bottom_nav/app/src/main/res/layout/countpicker.xml" value="0.15208333333333332" />
+        <entry key="..\:/Android/bottom_nav/app/src/main/res/layout/fragment_add_clock.xml" value="0.22" />
+        <entry key="..\:/Android/bottom_nav/app/src/main/res/layout/fragment_alarm_announce.xml" value="0.1640625" />
+        <entry key="..\:/Android/bottom_nav/app/src/main/res/layout/fragment_clock.xml" value="0.1796875" />
+        <entry key="..\:/Android/bottom_nav/app/src/main/res/layout/fragment_count.xml" value="0.1" />
+        <entry key="..\:/Android/bottom_nav/app/src/main/res/layout/fragment_timer.xml" value="0.1796875" />
+        <entry key="..\:/Android/bottom_nav/app/src/main/res/layout/popup_add_clock.xml" value="0.3333333333333333" />
+        <entry key="..\:/Android/bottom_nav/app/src/main/res/menu/menu_save.xml" value="0.1796875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

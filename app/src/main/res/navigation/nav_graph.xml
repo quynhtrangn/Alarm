@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/clockFragment">
+
+    <fragment
+        android:id="@+id/clockFragment"
+        android:name="com.example.clock2.fragments.ClockFragment"
+        android:label="fragment_clock"
+        tools:layout="@layout/fragment_clock" />
+    <fragment
+        android:id="@+id/countFragment"
+        android:name="com.example.clock2.fragments.CountFragment"
+        android:label="fragment_count"
+        tools:layout="@layout/fragment_count" />
+    <fragment
+        android:id="@+id/timerFragment"
+        android:name="com.example.clock2.fragments.TimerFragment"
+        android:label="fragment_timer"
+        tools:layout="@layout/fragment_timer" />
+    <action
+        android:id="@+id/move_clock"
+        app:destination="@id/clockFragment" />
+    <action
+        android:id="@+id/move_count"
+        app:destination="@id/countFragment" />
+    <action
+        android:id="@+id/move_timer"
+        app:destination="@id/timerFragment" />
+</navigation>
